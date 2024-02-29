@@ -1,10 +1,10 @@
 import React from "react";
-import Whatsapp_icon from './../../assets/whatsapp_icon.png'
+import Carticon from './../../assets/iconos/cart-1-svgrepo-com.svg'
 
 function BotonProductos() {
     return (
         <a className="btn btn-primary">
-                    <img src={Whatsapp_icon} alt="Icono WhatsApp" className="size-8"/>
+                    <img src={Carticon} alt="Icono carrito" className="size-8"/>
                     Ver Productos
                 </a>
     )

@@ -8,7 +8,7 @@ import Producto from "./Producto";
 function Services() {
     return (
         <div className="mt-20 mb-20">
-            <div className="flex flex-col items-center w-full lg:flex-row px-10">
+            <div className="flex flex-col items-center w-full sm:flex-row px-10">
                 <div className="grid flex-grow min-w-72 p-10 card rounded-box place-items-center lg:w-8/12">
                     <CartaServicios />
                 </div>

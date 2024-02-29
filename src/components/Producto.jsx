@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-function Producto({nombre="Producto", urlimg="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"}) {
+function Producto({nombre="Producto", urlimg="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg", descripcion="If a dog chews shoes whose shoes does he choose?"}) {
     return (
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
             <figure>
@@ -13,7 +13,7 @@ function Producto({nombre="Producto", urlimg="https://daisyui.com/images/stock/p
             </figure>
             <div className="card-body">
                 <h2 className="card-title">{nombre}</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p>{descripcion}</p>
             </div>
         </div>
     );
