@@ -1,12 +1,12 @@
 import React from "react";
 import "../index.css";
-import BotonReserva from "./botones/BotonReserva"; 
+import BotonReserva from "./botones/BotonReserva";
 
 function Nav() {
     return (
-        <div className="navbar bg-base-100 fixed z-10 font-semibold">
+        <div className="navbar bg-base-300 fixed z-50 font-semibold">
             <div className="navbar-start">
-                <div className="dropdown">
+                <div className="dropdown uppercase">
                     <div
                         tabIndex={0}
                         role="button"
@@ -32,63 +32,62 @@ function Nav() {
                         className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
                     >
                         <li className="mb-2">
-                            <a>Inicio</a>
+                            <a href="#Inicio">Inicio</a>
                         </li>
                         <li className="mb-2">
-                            <a>Acerca de Nosotros</a>
+                            <a href="#About">Acerca de Nosotros</a>
                         </li>
                         <li className="mb-2">
-                            <a>Galeria</a>
+                            <a href="#Galeria">Galeria</a>
                         </li>
                         <li className="mb-2">
                             <a>Servicios</a>
                             <ul className="p-2">
                                 <li className="mb-2">
-                                    <a>Servicios</a>
+                                    <a href="#Services">Servicios</a>
                                 </li>
                                 <li className="mb-2">
-                                    <a>Productos</a>
+                                    <a href="Products">Productos</a>
                                 </li>
                             </ul>
                         </li>
                         <li className="mb-2">
-                            <a>Contactos</a>
+                            <a href="#Contacts">Contactos</a>
                         </li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">D'Rafa Peluquería</a>
+                <a href="/" className="btn btn-ghost text-xl fuentePrecios text-amber-700">D'Rafa Peluquería</a>
             </div>
-
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden uppercase lg:flex ">
                 <ul className="menu menu-horizontal px-1">
-                    <li className="mx- hover:text-amber-700">
-                        <a>Inicio</a>
+                    <li className="mx-1 text-amber-700">
+                        <a href="#Inicio">Inicio</a>
                     </li>
                     <li className="mx-1 hover:text-amber-700">
-                        <a>Acerca de Nosotros</a>
+                        <a href="#About">Acerca de Nosotros</a>
                     </li>
                     <li className="mx-1 hover:text-amber-700">
-                        <a>Galeria</a>
+                        <a href="#Galeria">Galeria</a>
                     </li>
                     <li className="mx-1">
                         <details>
                             <summary>Servicios</summary>
                             <ul className="p-2">
                                 <li className=" hover:text-amber-700">
-                                    <a>Servicios</a>
+                                    <a href="#Services">Servicios</a>
                                 </li>
                                 <li className=" hover:text-amber-700">
-                                    <a>Productos</a>
+                                    <a href="Productos">Productos</a>
                                 </li>
                             </ul>
                         </details>
                     </li>
                     <li className="mx-1 hover:text-amber-700">
-                        <a>Contacto</a>
+                        <a href="#Contacts">Contacto</a>
                     </li>
                 </ul>
             </div>
-            
+
             <div className="navbar-end">
                 <BotonReserva />
             </div>

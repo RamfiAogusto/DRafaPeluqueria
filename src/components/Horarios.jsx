@@ -2,8 +2,8 @@ import React from "react";
 
 function Horarios() {
     return (
-        <div className="w-full fuentePrecios text-lg mb-6">
-            <h2 className="text-3xl text-amber-800 text-center mb-6">Nuestros Horarios</h2>
+        <div className="w-full text-lg mb-6">
+            <h2 className="text-3xl text-amber-800 text-center mb-6 fuentePrecios">Nuestros Horarios</h2>
             <div className="flex items-center justify-between min-w-full">
                 <p className="text-nowrap link-error pr-3">Lunes</p>
                 <div className="divider divider-end link-error divider-error w-full ">CERRADO</div>

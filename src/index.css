@@ -6,11 +6,15 @@
     box-shadow: -15px -15px 0px #a0420b;
 }
 
-.backladrillo{
+.backladrillo {
     background-color: #a0420b;
 }
-.colorladrillo{
+.colorladrillo {
     background-color: #a0420b;
+}
+
+.list {
+    list-style: disc;
 }
 .fuentePrecios {
     font-family: "Kaushan Script", cursive;
@@ -18,7 +22,100 @@
     font-style: normal;
 }
 
-.leaflet-container{
+.leaflet-container {
     width: 400px;
     height: 200px;
 }
+
+.container {
+    box-sizing: border-box;
+    height: fit-content;
+    width: 100%;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "a b c"
+        "d e f";
+}
+
+.a {
+    grid-area: a;
+
+
+}
+
+.b {
+    grid-area: b;
+
+
+}
+
+.c {
+    grid-area: c;
+
+
+}
+
+.d {
+    grid-area: d;
+
+}
+
+.e {
+    grid-area: e;
+
+}
+
+.f {
+    grid-area: f;
+
+}
+
+
+/* ----------------------------- */
+.uno img {
+    border: 1px solid white ;
+    max-height: 300px;
+    width: auto;
+
+
+}
+
+.dos img {
+    border: 1px solid white ;
+    max-height: 300px;
+    width: auto;
+
+
+}
+
+.tres img {
+    border: 1px solid white ;
+    max-height: 300px;
+    width: auto;
+
+
+}
+
+.cuatro img {
+    border: 1px solid white ;
+    max-height: 300px;
+    width: auto;
+
+}
+
+.cinco img {
+    border: 1px solid white ;
+    max-height: 300px;
+    width: auto;
+
+}
+
+.pro_flex{
+    display: flex !important;
+}
+
