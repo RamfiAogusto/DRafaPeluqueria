@@ -1,11 +1,10 @@
 import React from "react";
 import '../../index.css'
-
+import BotonContactar from "../botones/BotonContactar";
 function Info() {
     return (
         <div className="text-center max-w-sm mx-auto my-10 p-7 bg-base-300 rounded-xl sm:max-w-3xl">
             <h1 className="text-center font-bold text-3xl mb-6">Leer antes de reservar</h1>
-
             <ul className="text-start text-lg list">
                 <li className="mb-2">
                     La reservación de turnos significa que el cliente va a venir
@@ -25,13 +24,13 @@ function Info() {
                     notificarme para seguir adelante con los demás clientes.
                 </li>
             </ul>
-            <p className="text-start text-lg">
+            <p className="text-start text-lg mb-8">
                 Este sistema de reservaciones de turnos, siguiendo las normas,
                 no afecta el sistema tradicional de venir y hacer su turno aquí.
                 Este servicio fue creado a petición de un público. Seguimos
                 complaciendo y Dios bendiciendo, <strong>Amén.</strong>
             </p>
-            
+            <BotonContactar url="#desdereservas" texto="Reservar" />
         </div>
     );
 }

@@ -4,7 +4,7 @@ import Horarios from "../Horarios";
 
 function Horarios_Precios() {
     return (
-        <div className="flex flex-col items-center w-full">
+        <div className="flex mt-20 flex-col items-center w-full">
             <div className="grid flex-grow min-w-72 p-10 card rounded-box place-items-center sm:w-8/12">
                 <CartaServicios_Reservas />
                 

@@ -1,6 +1,7 @@
 import React from "react";
 import "../index.css";
 import BotonReserva from "./botones/BotonReserva";
+import { Link } from "react-router-dom";
 
 function Nav() {
     return (
@@ -47,7 +48,7 @@ function Nav() {
                                     <a href="#Services">Servicios</a>
                                 </li>
                                 <li className="mb-2">
-                                    <a href="Products">Productos</a>
+                                    <Link to="/Productos">Productos</Link>
                                 </li>
                             </ul>
                         </li>
@@ -56,7 +57,12 @@ function Nav() {
                         </li>
                     </ul>
                 </div>
-                <a href="/" className="btn btn-ghost text-xl fuentePrecios text-amber-700">D'Rafa Peluquería</a>
+                <Link
+                    href="/"
+                    className="btn btn-ghost text-xl fuentePrecios text-amber-700"
+                >
+                    D'Rafa Peluquería
+                </Link>
             </div>
             <div className="navbar-center hidden uppercase lg:flex ">
                 <ul className="menu menu-horizontal px-1">
@@ -77,7 +83,7 @@ function Nav() {
                                     <a href="#Services">Servicios</a>
                                 </li>
                                 <li className=" hover:text-amber-700">
-                                    <a href="Productos">Productos</a>
+                                    <Link to="/Productos">Productos</Link>
                                 </li>
                             </ul>
                         </details>
@@ -87,7 +93,6 @@ function Nav() {
                     </li>
                 </ul>
             </div>
-
             <div className="navbar-end">
                 <BotonReserva />
             </div>

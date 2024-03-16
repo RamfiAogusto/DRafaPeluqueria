@@ -22,7 +22,7 @@ function Hero() {
                         El don del corte
                     </h2>
 
-                    <BotonContactar url="Reservar" />
+                    <BotonContactar url="/Reservar" />
                     <svg
                         className="w-10 h-10 absolute bottom-3 md:hidden"
                         viewBox="0 0 24 24"

@@ -1,5 +1,6 @@
 import React from "react";
 import Diploma from '../assets/diploma.jpg'
+import { Link } from "react-router-dom";
 function Footer() {
     return (
         <footer className="footer p-10 bg-base-200 text-base-content">
@@ -9,13 +10,13 @@ function Footer() {
             <nav>
                 <h6 className="footer-title">Servicios</h6>
                 <a href="#Services" className="link link-hover">Servicios</a>
-                <a href="Productos" className="link link-hover">Productos</a>
-                <a href="Reservar" className="link link-hover">Reservar</a>
+                <Link to="/Productos" className="link link-hover">Productos</Link>
+                <Link to="/Reservar" className="link link-hover">Reservar</Link>
                 
             </nav>
             <nav>
                 <h6 className="footer-title">Secciones</h6>
-                <a href="/" className="link link-hover">Inicio</a>
+                <Link to="/" className="link link-hover">Inicio</Link>
                 <a href="#About" className="link link-hover">Acerca de nosotros</a>
                 <a href="#Galeria" className="link link-hover">Galeria</a>
                 <a href="#Contacts" className="link link-hover">Contacto</a>
