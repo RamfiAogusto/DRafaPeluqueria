@@ -21,7 +21,7 @@ function Galeria() {
         
     ];
     return (
-        <div id="Galeria" class="bg-base-300">
+        <div id="Galeria" className="bg-base-300">
             <ImageGallery 
                 items={images} 
                 slideDuration={1000}
